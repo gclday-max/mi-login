@@ -46,3 +46,38 @@ button:hover {
   margin-top: 10px;
   font-weight: bold;
 }
+
+/* Contenedor del password y el botón */
+.password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  width: 90%;
+}
+
+/* Input de contraseña */
+.password-container input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+/* Botón mostrar/ocultar contraseña */
+.password-container button {
+  background: #fff;
+  color: #ba5370;
+  border: none;
+  padding: 0 12px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.password-container button:hover {
+  background: #f4e2d8;
+  color: #8b2d5b;
+}
