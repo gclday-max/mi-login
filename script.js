@@ -10,7 +10,7 @@ loginBtn.addEventListener('click', () => {
   const passwordCorrecto = "12345";
 
   if(usuario === usuarioCorrecto && password === passwordCorrecto) {
-    mensaje.textContent = "✅ ¡Bienvenido!";
+    mensaje.textContent = "¡Bienvenido!";
     mensaje.style.color = "lightgreen";
 
     // Redirigir a la otra página
@@ -21,7 +21,7 @@ loginBtn.addEventListener('click', () => {
     window.location.href = "https://gclday-max.github.io/mi-proyecto/";
     
   } else {
-    mensaje.textContent = "❌ Usuario o contraseña incorrectos";
+    mensaje.textContent = "Usuario o contraseña incorrectos";
     mensaje.style.color = "red";
   }
 });
